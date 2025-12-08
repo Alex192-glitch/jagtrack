@@ -1,0 +1,57 @@
+I chose the option text-dark because I like the aesthetic of the dark text standing out from the background color. The colors I chose was a light pink, light yellow, and black for the text. I think they work well together because the light colors bring out the black text in general.
+JagTrack Module 1 - Written Reflection
+Student: [Alex Pashova]
+Date: [December 4th, 2025]
+
+
+---
+
+
+CHOICE POINT #1: COLOR THEME
+Option Chosen: [A, B, C, or D]
+Explanation: [3-5 sentences about your color choices, why they work well together, and any accessibility considerations you made]
+I chose option B because I would want to include colors that represent me. I think light colors work together because it brings the whole website together perfectly and visually. I made the left border light yellow for it to stand out, aswell as a light pink color when you click "go to canvas".
+
+---
+
+
+NEXT QUARTER PLANNING (myclassesnextquarter.html)
+
+
+My Classes for Next Quarter:
+- A Block: [Class Name] - [Time]
+- B Block: [Class Name] - [Time] (or Free Period)
+- C Block: [Class Name] - [Time]
+- D Block: [Class Name] - [Time]
+(Add 1st Period if applicable)
+
+
+Explanation:
+[Write 4-6 sentences about your next quarter schedule:
+- Why did you choose these classes?
+- What are you most looking forward to learning?
+- Which class do you think will be most challenging and why?
+- If you have a free period, how do you plan to use it productively?
+- How will these classes help you reach your academic or career goals?]
+
+
+Free Period Challenge (if applicable):
+[If you have a free period, did you complete the challenge to hide it on mobile? Explain how you implemented it using d-none d-sm-block]
+
+
+---
+
+
+REFLECTION
+
+
+What I Learned:
+[Write 5-8 sentences reflecting on Module 1:
+- What Bootstrap concepts made sense to you?
+- What was most challenging?
+- How do you feel about your CSS customization?
+- What would you add to JagTrack in the future?
+- How will you use this site for planning next quarter?]
+
+
+Hours Spent: [3]
