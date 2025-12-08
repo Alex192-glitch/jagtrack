@@ -1,0 +1,212 @@
+html
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+   <!-- Required meta tags always come first -->
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+
+   <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+  
+   <!-- Custom CSS -->
+   <link rel="stylesheet" href="css/styles.css" />
+
+
+   <title>JagTrack - Next Quarter Planning</title>
+</head>
+
+
+<body>
+
+
+   <header class="jumbotron jumbotron-fluid">
+       <div class="container">
+           <div class="row">
+               <div class="col">
+                   <h1>JagTrack</h1>
+                   <h2>Next Quarter Planning</h2>
+               </div>
+           </div>
+       </div>
+   </header>
+
+
+   <div class="container">
+       <div class="row">
+           <div class="col">
+              <h2>My Classes Next Quarter</h2>
+              <hr />
+           </div>
+       </div>
+
+
+       <!-- Planning Section -->
+       <div>
+           <div>
+               <h3>Planning Ahead</h3>
+               <p class="d-none d-sm-block">Use this page to plan and organize your classes for next quarter. While you won't have Canvas links yet (since the quarter hasn't started), you can prepare your schedule, know your class times, and get organized for a successful quarter. Go Jaguars!</p>
+           </div>
+       </div>
+
+
+       <!-- Next Quarter Classes Section -->
+       <div>
+           <div>
+               <h3>Next Quarter Classes</h3>
+
+
+               <!-- Class 1: A Block - Replace with YOUR next quarter class -->
+               <h4>A Block: [Earth Science] <small>8:25 AM - 9:55 AM</small></h4>
+               <p class="d-none d-sm-block"><div I="" expect="" to="" learn="" the="" Earths="" systems="" like="" geology,="" oceanography,="" meterology,="" and="" astronomy=""></div></p>
+               <p><em>Canvas link not available yet - quarter hasn't started!</em></p>
+
+
+               <!-- Class 2: B Block - Replace with YOUR next quarter class -->
+               <h4>B Block: [Weight Training Beg] <small>10:00 AM - 11:30 AM</small></h4>
+               <p class="d-none d-sm-block">[Write what you expect to learn in this class next quarter]</p>
+               <p><em>Canvas link not available yet - quarter hasn't started!</em></p>
+
+
+               <!-- Class 3: C Block - Replace with YOUR next quarter class -->
+               <h4>C Block: [Spanish II] <small>12:15 PM - 1:45 PM</small></h4>
+               <p class="d-none d-sm-block">[Write what you expect to learn in this class next quarter]</p>
+               <p><em>Canvas link not available yet - quarter hasn't started!</em></p>
+
+
+               <!-- Class 4: D Block - Replace with YOUR next quarter class OR Free Period -->
+               <h4>D Block: [Geometry] <small>1:50 PM - 3:20 PM</small></h4>
+               <p class="d-none d-sm-block">[Write what you expect to learn in this class next quarter]</p>
+               <p><em>Canvas link not available yet - quarter hasn't started!</em></p>
+           </div>
+       </div>
+   </div>
+
+
+   <footer>
+       <div class="container">
+           <div class="row">
+               <div class="col-4 col-sm-2 offset-1">
+                   <h5>Quick Links</h5>
+                   <ul class="list-unstyled">
+                       <li><a href="index.html">Home</a></li>
+                       <li><a href="myclassesnextquarter.html">Next Quarter</a></li>
+                       <li><a href="#">Resources</a></li>
+                       <li><a href="#">Contact</a></li>
+                   </ul>
+               </div>
+               <div class="col-6 col-sm-5 text-center">
+                   <h5>Connect</h5>
+                   <a href="#">Canvas Portal</a> |
+                   <a href="#">Study Groups</a> |
+                   <a href="#">Help Center</a>
+               </div>
+               <div class="col-sm-4 text-center">
+                   <h5>Contact</h5>
+                   Jefferson Academy Secondary<br />
+                   Email: <strong>YOUR_EMAIL_HERE@jajags.com</strong> (Replace with your actual email!)
+               </div>
+          </div>
+       </div>
+   </footer>
+
+
+   <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+   <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+   <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+   <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+
+</body>
+
+
+</html>
+```
+
+
+**Step 3: View your new page**
+* Run `npm start` (if not already running)
+* In your browser's address bar, go to: `http://localhost:3000/myclassesnextquarter.html`
+* You should see your new page (though it needs formatting work)
+
+
+---
+
+
+### Task 2: Add Bootstrap Grid Formatting
+
+
+Now you'll apply Bootstrap's grid classes to make your page responsive.
+
+
+#### Format the Planning Section
+
+
+Find the "Planning Section" comment in your HTML. Replace that entire div section with:
+
+
+```html
+<!-- Planning Section -->
+<div class="row row-content">
+   <div class="col-12 col-sm-6">
+       <h3>Planning Ahead</h3>
+       <p class="d-none d-sm-block">Use this page to plan and organize your classes for next quarter. While you won't have Canvas links yet (since the quarter hasn't started), you can prepare your schedule, know your class times, and get organized for a successful quarter. Go Jaguars!</p>
+   </div>
+</div>
+```
+
+
+**What this does:**
+* `row row-content` - Creates a row with our custom spacing
+* `col-12` - Full width on extra small screens
+* `col-sm-6` - Half width on small screens and up
+
+
+#### Format the Next Quarter Classes Section
+
+
+Find the "Next Quarter Classes Section" comment. Replace that entire div section with:
+
+
+```html
+<!-- Next Quarter Classes Section -->
+<div class="row row-content">
+   <div class="col">
+       <h3>Next Quarter Classes</h3>
+
+
+       <!-- Class 1: A Block - REPLACE WITH YOUR CLASS -->
+       <div class="class-card">
+           <h4>A Block: [Earth Science] <small class="text-muted">8:25 AM - 9:55 AM</small></h4>
+           <p class="d-none d-sm-block">[I expect to learn about the Earth systems like geology, oceanography,  meteorology, and astronomy. I also expect learning about rocks, weather, and physics. I am most looking forward to learn more about climate change and how it's affecting the earth.]</p>
+           <p class="text-muted"><em>Canvas link not available yet - quarter hasn't started!</em></p>
+       </div>
+
+
+       <!-- Class 2: B Block - REPLACE WITH YOUR CLASS -->
+       <div class="">
+           <h4>B Block: [Weight Training Beg] <small class="text-muted">10:00 AM - 11:30 AM</small></h4>
+           <p class="d-none d-sm-block">[I expect to learn about the different excercises and what muscle group the excercise targets. I look forward to getting more excercise and learning how to properly target a specific muscle group to get results.]</p>
+           <p class="text-muted"><em>Canvas link not available yet - quarter hasn't started!</em></p>
+       </div>
+
+
+       <!-- Class 3: C Block - REPLACE WITH YOUR CLASS -->
+       <div class="class-card">
+           <h4>C Block: [Spanish II] <small class="text-muted">12:15 PM - 1:45 PM</small></h4>
+           <p class="d-none d-sm-block">[I expect to learn a more advanced Spanish from Spanish I. I look forward to improving my Spanish with speaking, reading, writing, and listening skills.]</p>
+           <p class="text-muted"><em>Canvas link not available yet - quarter hasn't started!</em></p>
+       </div>
+
+
+       <!-- Class 4: D Block - REPLACE WITH YOUR CLASS OR Free Period -->
+       <div class="class-card">
+           <h4>D Block: [Geometry] <small class="text-muted">1:50 PM - 3:20 PM</small></h4>
+           <p class="d-none d-sm-block">[I expect to learn to solve math problems with different shapes like triangles, circles, and polygons. I look forward to learn something new with math and hoping that it will not be that difficult.]</p>
+           <p class="text-muted"><em>Canvas link not available yet - quarter hasn't started!</em></p>
+       </div>
+   </div>
+</div>
