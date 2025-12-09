@@ -4,13 +4,20 @@
   "description": "This is a website made to help Jefferson Academy students organize their classes",
   "main": "index.html",
   "scripts": {
-  "lite": "lite-server",
- "start": "npm run lite",
-  "test": "echo \"Error: no test specified\" && exit 1"
-  },
+ "dev": "vite",
+ "start": "vite",
+ "build": "vite build",
+ "preview": "vite preview",
+ "test": "echo \"Error: no test specified\" && exit 1"
+},
+
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@huggingface/inference": "^4.13.5",
     "lite-server": "^2.6.1"
+  },
+  "devDependencies": {
+    "vite": "^7.2.7"
   }
 }
