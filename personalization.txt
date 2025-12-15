@@ -55,3 +55,24 @@ What I Learned:
 The bootstrap concepts that made sense to me were the design concepts with the different types of rows and columns. The most challenging part was linking certain websites into the code and sometimes it wouldn't work. I feel pretty good about my CSS customization and I like that I made it simple with not too much going on. In the future, I would add more types of styles and lighter colors to make it more visually appealing. I will use this site for planning for next quarter by using it when I neesd study resources for a test.
 
 Hours Spent: [3]
+
+
+EXERCISE 2: GOOGLE CALENDAR INTEGRATION
+
+
+Calendar Setup:
+- Did you create a new calendar or use an existing one? [I created a new calendar.]
+- How many Canvas iCal feeds did you add? [1]
+- Did you add them individually by course or as one combined feed? [I added them as one combined feed.]
+
+
+Reflection:
+[Write 4-5 sentences about the calendar integration:
+- How will this calendar help you stay organized?
+- What challenges did you face getting it set up?
+- Did you customize the calendar appearance? How?
+- What view works best for you (month, week, agenda)?
+- What other calendars might you add in the future?]
+This calendar will help me stay organized by putting together all the assignments I need to get done by the deadline. I had a challenge that the calendar wouldn't show up on my website. I customized the calendars appearance by putting yellow borders to make it stand out. I think the month view works best for me because I can see what assignments I don't need to worry about and the assignments I need to do. I might add a calender for my future job to stay organized. 
+
+

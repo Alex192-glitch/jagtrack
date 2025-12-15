@@ -65,8 +65,6 @@ html
 </header>
 
 
-
-
    <div>
        <h2>My 4 Classes</h2>
        <h3>Current Quarter</h3>
@@ -206,27 +204,53 @@ html
        </div>
    </div>
 </div>
-
-
-
    <div>
        <h2>Study Resources</h2>
        <h3>Your Success Tools</h3>
        <p>Access helpful resources and study guides for all your subjects.</p>
    </div>
 
-
-   <div>
-       <h2>Calendar & Deadlines</h2>
-       <h3>Stay On Track</h3>
-       <p>Never miss an assignment or test date again.</p>
-   </div>
-
+   <div class="container">
+  <div class="row row-content">
+      <div class="col">
+          <h2 class="text-center">Calendar & Deadlines</h2>
+          <h3 class="text-center">Stay On Track</h3>
+          <p class="text-center">Your Canvas assignments automatically sync to this calendar. Never miss a deadline!</p>
+      </div>
+  </div> 
+  <p class="d-block d-md-none text-center">
+  <a href="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FDenver&showPrint=0&mode=MONTH&src=Y18xNjA4NzhiZGFhOTg4MmZkYTAwODQyY2I4ZjgwMDlmZTlhN2YzNjVhMTdjOGIyM2U3Y2MwMmE1N2M5MDExZjI1QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=bWE0dmVnN3FjYTZrMTJybnNidDRqNGNkam4wbXMzNWZAaW1wb3J0LmNhbGVuZGFyLmdvb2dsZS5jb20&color=%23e4c441&color=%23b39ddb"  width="800" height="600" frameborder="0" scrolling="no" target="_blank" class="btn btn-primary">Open Calendar in New Tab (Better for Mobile)</a>
+</p>
+  <div class="row">
+      <div class="col">
+          <div class="calendar-container">
+            <div class="text-center mb-3">
+  <div class="btn-group" role="group">
+      <button class="btn btn-primary" onclick="switchCalendarView('MONTH')">Month View</button>
+      <button class="btn btn-secondary" onclick="switchCalendarView('WEEK')">Week View</button>
+      <button class="btn btn-info" onclick="switchCalendarView('AGENDA')">Agenda View</button>
+  </div>
+  <div class="calendar-container text-center">
+  <iframe
+    id="calendar-iframe"
+    src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FDenver&showPrint=0&mode=MONTH&src=Y18xNjA4NzhiZGFhOTg4MmZkYTAwODQyY2I4ZjgwMDlmZTlhN2YzNjVhMTdjOGIyM2U3Y2MwMmE1N2M5MDExZjI1QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=bWE0dmVnN3FjYTZrMTJybnNidDRqNGNkam4wbXMzNWZAaW1wb3J0LmNhbGVuZGFyLmdvb2dsZS5jb20&color=%23e4c441&color=%23b39ddb"
+    width="800"
+    height="600"
+    frameborder="0"
+    scrolling="no">
+  </iframe>
+</div>
+</div>
+<iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FDenver&showPrint=0&mode=MONTH&src=Y18xNjA4NzhiZGFhOTg4MmZkYTAwODQyY2I4ZjgwMDlmZTlhN2YzNjVhMTdjOGIyM2U3Y2MwMmE1N2M5MDExZjI1QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=bWE0dmVnN3FjYTZrMTJybnNidDRqNGNkam4wbXMzNWZAaW1wb3J0LmNhbGVuZGFyLmdvb2dsZS5jb20&color=%23e4c441&color=%23b39ddb"  width="800" height="600" frameborder="0" scrolling="no"></iframe></div>
+      </div>
+  </div>
+</div>
 
   <footer>
    <div class="container">
        <div class="row">
            <div class="col-4 col-sm-2 offset-1">
+
                <h5>Quick Links</h5>
                <ul class="list-unstyled">
                    <li><a href="index.html">Home</a></li>
