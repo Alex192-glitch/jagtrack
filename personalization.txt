@@ -75,4 +75,32 @@ Reflection:
 - What other calendars might you add in the future?]
 This calendar will help me stay organized by putting together all the assignments I need to get done by the deadline. I had a challenge that the calendar wouldn't show up on my website. I customized the calendars appearance by putting yellow borders to make it stand out. I think the month view works best for me because I can see what assignments I don't need to worry about and the assignments I need to do. I might add a calender for my future job to stay organized. 
 
+EXERCISE 3: DARK/LIGHT MODE TOGGLE
+
+
+Color Scheme Design:
+[Write 5-7 sentences about your color choices:
+- What colors did you choose for light mode? Why?
+- What colors did you choose for dark mode? Why?
+- How do your color choices reflect your personality or style?
+- Did you use any color theory principles (complementary, analogous, etc.)?
+- How did you ensure good contrast for accessibility?
+- What tools did you use to help choose colors?
+- Were there any colors you tried that didn't work? Why not?]
+I chose colors like different shades of beige and pink for light mode because I like how well the colors go together simply. For dark mode, I chose colors like a dark pink and brown because I feel that those colors make the website stand out. My color choices reflect my style because my favorite color is pink and putting colors that go with that color make it put it all together. I didn'[t use color theory principles I just put similar shades or pink and brown. I ensured good contrast for accesibility by adding dark text to light backgrounds and light text to dark backgrounds. I used the random pallete generator to help me choose these colors. ]
+
+Theme Preferences:
+- Which theme do you prefer personally and why? [I prefer the dark them personally because it relaxes my eyes from a lighter theme.]
+- When do you think dark mode is most useful? [I think dark mode is most useful when its at night time so you can see better without all the brightness.]
+- Did you create any custom CSS for the toggle button? [I made the toggle button have an oval background with a light border.]
+
+
+JavaScript Understanding:
+[Write 4-5 sentences showing you understand the JavaScript code:
+- In your own words, what does the JavaScript do?
+- What is localStorage and why is it useful?
+- What happens when you click the theme toggle button?
+- Why does the theme preference persist when you reload the page?
+- How might you use JavaScript in future projects?]
+JavaScript makes things happen on a webpage without requiring it to reload. A localStorage alloqs websites to store small amounts of data directly on your device. When you click the theme toggle button the theme changes to either dark mode or light mode. The thenme preference persists when I reload the page because it uses localStorage. I might use JavaScript in future projects with coding in classes.
 
