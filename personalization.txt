@@ -104,3 +104,32 @@ JavaScript Understanding:
 - How might you use JavaScript in future projects?]
 JavaScript makes things happen on a webpage without requiring it to reload. A localStorage alloqs websites to store small amounts of data directly on your device. When you click the theme toggle button the theme changes to either dark mode or light mode. The thenme preference persists when I reload the page because it uses localStorage. I might use JavaScript in future projects with coding in classes.
 
+Bootstrap Components Used:
+1. [Navbar] - Used for site navigation across all pages (Home, Next Quarter, About Me, AI Chat, Theme Toggle)
+2. [Cards] - Used for [the Hobbies section to display interests like gymnastics, coding, and music in a clean grid layout]
+3. [Alerts] - Used for [the Goals section to highlight academic, athletic, and personal goals]
+4. [Progress Bars] - Used for [the Skills section to visually show proficiency levels in HTML/CSS, Bootstrap, and JavaScript]
+(Add more if you used more than 4)
+
+
+Design Choices:
+[Write 6-8 sentences explaining your design decisions:
+- Why did you choose those specific Bootstrap components?
+- How did you decide on the layout and structure?
+- What challenges did you face while building this page?
+- What are you most proud of on this page?
+- How does this page reflect your personality?
+- What would you add or improve if you had more time?
+- How did you ensure the page was responsive?]
+I chose Bootstrap components like cards, alerts, progress bars, and the navbar because they help organize my information and make the page easy to understand. I planned the layout so the hero section comes first and shows who I am right away, followed by sections about my hobbies, goals, and skills. One challenge I faced was making sure the page looked good in both light mode and dark mode. I am most proud of the hero section with the gymnast clipart because it shows that gymnastics is an important part of my life. This page reflects my personality by showing both my academic interests and my commitment to gymnastics. If I had more time, I would add animations or a section about my gymnastics competitions. I made sure the page was responsive by using Bootstrap’s grid system so it works well on different screen sizes.
+
+Research and Problem-Solving:
+[Write 4-5 sentences about your learning process:
+- What resources did you use (Bootstrap docs, W3Schools, etc.)?
+- What was the hardest part to figure out?
+- Did you need to troubleshoot any issues? How did you solve them?
+- What did you learn about researching and implementing new components?
+- How has your confidence with Bootstrap grown from Module 1 to Module 2?]
+I used the Bootstrap documentation and W3Schools to learn how different components like cards, alerts, and progress bars work. The hardest part was understanding how to structure the layout using rows and columns so everything lined up correctly. I had to troubleshoot issues with spacing and colors, and I solved them by checking my CSS variables and testing changes in the browser. I learned that researching examples and then customizing them is the best way to use new Bootstrap components. From Module 1 to Module 2, my confidence with Bootstrap has grown because I understand how to combine components and make pages responsive. 
+
+---

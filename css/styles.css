@@ -282,3 +282,81 @@ body {
 }
 
 
+.about-hero {
+  background: linear-gradient(
+    135deg,
+    var(--jag-black) 0%,
+    var(--jag-accent) 100%
+  );
+  color: var(--text-light);
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.profile-image {
+  max-width: 220px;
+  margin: 20px auto;
+  display: block;
+  filter: drop-shadow(0 6px 12px rgba(0, 0, 0, 0.3));
+}
+
+
+.about-section {
+  padding: 50px 0;
+}
+
+.about-section h2 {
+  color: var(--jag-black);
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.about-section .card {
+  background-color: var(--background-white);
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.about-section .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
+}
+
+.progress {
+  height: 25px;
+  background-color: var(--background-dark);
+}
+
+.progress-bar {
+  font-weight: bold;
+  background-color: var(--jag-gold);
+  color: var(--text-dark);
+}
+
+.alert {
+  background-color: var(--background-white);
+  color: var(--text-dark);
+  border-left: 5px solid var(--jag-accent);
+}
+
+[data-theme="dark"] .about-hero {
+  background: linear-gradient(
+    135deg,
+    var(--jag-black),
+    var(--jag-accent)
+  );
+}
+
+[data-theme="dark"] .about-section .card {
+  background-color: var(--background-dark);
+  color: var(--text-dark);
+}
+
+[data-theme="dark"] .alert {
+  background-color: var(--background-dark);
+  color: var(--text-dark);
+}
+
+
